@@ -3,47 +3,44 @@ import { StyleSheet } from "react-native";
 const estilos = StyleSheet.create({
   container: {
     flex: 1,
-    
-    padding: 20
+    backgroundColor: '#fff'
+  },
+  containerScroll: {
+    padding: 20,
   },
   titulo: {
-    color: '#000',
-    fontSize: 25,
+    fontSize: 36,
     fontWeight: 'bold',
-    marginBottom: 10,
+    marginBottom: 15,
   },
   subtitulo: {
-    color: '#000',
+    marginBottom: 15,
     fontSize: 18,
-    textAlign: 'center',
   },
-  boxcard: {
-    
-    backgroundColor:'rgb(171, 136, 124)',
-    marginBottom: 5,
-    padding: 10,
-    borderRadius: 5,
-    borderColor: '#979797',
-    borderWidth: 1,
-    
-    
-  },
-  imgcard:{
-    flex: 1,
+  cardVinho: {
     flexDirection: 'row',
-    width: 100,
-    height: 100,
-    marginBottom: 5,
-    
-    
+    backgroundColor:'#ab887c',
+    borderRadius: 10,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    marginBottom: 20,
   },
-  titulocard: {
-    fontSize: 16,
+  vinhoImg:{
+    width: 60,
+    height: 120,
+  },
+  cardBoxDescricao: {
+    flex: 1
+  },
+  cardTitulo: {
+    fontSize: 18,
     fontWeight: 'bold',
-    margin: 10,
+    marginBottom: 15,
     color: '#fff'
-    
   },
+  cardBoxDescricao: {
+    color: '#fff',
+  }
 });
 
 export default estilos;
