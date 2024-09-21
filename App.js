@@ -12,7 +12,7 @@ const Tabs = createBottomTabNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
       <Tabs.Navigator
         screenOptions={{
           headerStyle: {
